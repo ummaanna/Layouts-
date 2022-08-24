@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    //card
     <style name="MylayoutCard">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">8dp</item>
-        <item name="android:background">@color/background_card</item>
+        <item name="android:background">#f5f5f5</item>
         <item name="android:elevation">8dp</item>
         <item name="android:padding">8dp</item>
         <item name="cardCornerRadius">16dp</item>
@@ -12,4 +14,73 @@
         <item name="strokeColor">@color/white</item>
         <item name="cardBackgroundColor">@color/background_card</item>
     </style>
+    
+   //use for text in your only card 
+    /textCard
+     <style name="MyTextCard">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    
+    
+ //TextInput
+    
+       <style name="MyTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+    
+    //TextView
+       
+    <style name="MyTextView" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    
+    //Buttton save 
+    
+    //Not Edition in Form
+        <style name="ButtonsSalve" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="tint">@color/white</item>
+    </style>
+    
+    
+    //Not Edition in Form
+    //use in TextInputLayout
+    <style name="TextEnabled">
+        <item name="android:tint">#FACCC7C7</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+  //use in TextInputEditText
+    <style name="EditEnabled">
+        <item name="android:textColorHint">#FACCC7C7</item>
+        <item name="android:textColor">#FACCC7C7</item>
+        <item name="android:background"#f5f5f5</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    
+    
 </resources>
